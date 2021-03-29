@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4693D7A9-08AD-4FDD-808C-4FB8C3F9B322}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Scientific_conference</RootNamespace>
+    <AssemblyName>Scientific_conference</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddFounds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFounds.Designer.cs">
+      <DependentUpon>AddFounds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddProj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddProj.Designer.cs">
+      <DependentUpon>AddProj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Conference.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Conference.Designer.cs">
+      <DependentUpon>Conference.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delPubDet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delPubDet.Designer.cs">
+      <DependentUpon>delPubDet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DelSpons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DelSpons.Designer.cs">
+      <DependentUpon>DelSpons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Conference_data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Conference_data.Designer.cs">
+      <DependentUpon>Conference_data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormForm.Designer.cs">
+      <DependentUpon>FormForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsRap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsRap.Designer.cs">
+      <DependentUpon>InsRap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoneyFounds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoneyFounds.Designer.cs">
+      <DependentUpon>MoneyFounds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewPubDet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewPubDet.Designer.cs">
+      <DependentUpon>NewPubDet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewRap-Conf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewRap-Conf.Designer.cs">
+      <DependentUpon>NewRap-Conf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Otcheti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Otcheti.Designer.cs">
+      <DependentUpon>Otcheti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PubDet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PubDet.Designer.cs">
+      <DependentUpon>PubDet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rap-Loc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rap-Loc.Designer.cs">
+      <DependentUpon>Rap-Loc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForRap1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForRap1.Designer.cs">
+      <DependentUpon>ForRap1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mass_media.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mass_media.Designer.cs">
+      <DependentUpon>Mass_media.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Organizer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Organizer.Designer.cs">
+      <DependentUpon>Organizer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project.Designer.cs">
+      <DependentUpon>Project.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query1.Designer.cs">
+      <DependentUpon>Query1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Raport2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Raport2.Designer.cs">
+      <DependentUpon>Raport2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rapporteur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapporteur.Designer.cs">
+      <DependentUpon>Rapporteur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rapporteur2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapporteur2.Designer.cs">
+      <DependentUpon>Rapporteur2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rapporteur_data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapporteur_data.Designer.cs">
+      <DependentUpon>Rapporteur_data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project_data.Designer.cs">
+      <DependentUpon>Project_data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Org.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Org.Designer.cs">
+      <DependentUpon>Org.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rapporteur_data2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapporteur_data2.Designer.cs">
+      <DependentUpon>Rapporteur_data2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scientific_adviser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scientific_adviser.Designer.cs">
+      <DependentUpon>Scientific_adviser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scientific_adviser2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scientific_adviser2.Designer.cs">
+      <DependentUpon>Scientific_adviser2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scientific_conferenceDataSet.cs">
+      <DependentUpon>Scientific_conferenceDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Scientific_conferenceDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Scientific_conferenceDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Scientific_conferenceDataSet1.cs">
+      <DependentUpon>Scientific_conferenceDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Scientific_conferenceDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Scientific_conferenceDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Scientific_conferenceDataSet2.cs">
+      <DependentUpon>Scientific_conferenceDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Scientific_conferenceDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Scientific_conferenceDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Sponsor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sponsor.Designer.cs">
+      <DependentUpon>Sponsor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SumSpons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SumSpons.Designer.cs">
+      <DependentUpon>SumSpons.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddFounds.resx">
+      <DependentUpon>AddFounds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddProj.resx">
+      <DependentUpon>AddProj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Conference.resx">
+      <DependentUpon>Conference.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delPubDet.resx">
+      <DependentUpon>delPubDet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DelSpons.resx">
+      <DependentUpon>DelSpons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Conference_data.resx">
+      <DependentUpon>Conference_data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormForm.resx">
+      <DependentUpon>FormForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsRap.resx">
+      <DependentUpon>InsRap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoneyFounds.resx">
+      <DependentUpon>MoneyFounds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewPubDet.resx">
+      <DependentUpon>NewPubDet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewRap-Conf.resx">
+      <DependentUpon>NewRap-Conf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Otcheti.resx">
+      <DependentUpon>Otcheti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PubDet.resx">
+      <DependentUpon>PubDet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rap-Loc.resx">
+      <DependentUpon>Rap-Loc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForRap1.resx">
+      <DependentUpon>ForRap1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mass_media.resx">
+      <DependentUpon>Mass_media.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Organizer.resx">
+      <DependentUpon>Organizer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project.resx">
+      <DependentUpon>Project.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query1.resx">
+      <DependentUpon>Query1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Raport2.resx">
+      <DependentUpon>Raport2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapporteur.resx">
+      <DependentUpon>Rapporteur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapporteur2.resx">
+      <DependentUpon>Rapporteur2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapporteur_data.resx">
+      <DependentUpon>Rapporteur_data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_data.resx">
+      <DependentUpon>Project_data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Org.resx">
+      <DependentUpon>Org.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Rapporteur_data2.resx">
+      <DependentUpon>Rapporteur_data2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scientific_adviser.resx">
+      <DependentUpon>Scientific_adviser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scientific_adviser2.resx">
+      <DependentUpon>Scientific_adviser2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sponsor.resx">
+      <DependentUpon>Sponsor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SumSpons.resx">
+      <DependentUpon>SumSpons.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Scientific_conferenceDataSet.xsc">
+      <DependentUpon>Scientific_conferenceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Scientific_conferenceDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Scientific_conferenceDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Scientific_conferenceDataSet.xss">
+      <DependentUpon>Scientific_conferenceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Scientific_conferenceDataSet1.xsc">
+      <DependentUpon>Scientific_conferenceDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Scientific_conferenceDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Scientific_conferenceDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Scientific_conferenceDataSet1.xss">
+      <DependentUpon>Scientific_conferenceDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Scientific_conferenceDataSet2.xsc">
+      <DependentUpon>Scientific_conferenceDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Scientific_conferenceDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Scientific_conferenceDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Scientific_conferenceDataSet2.xss">
+      <DependentUpon>Scientific_conferenceDataSet2.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

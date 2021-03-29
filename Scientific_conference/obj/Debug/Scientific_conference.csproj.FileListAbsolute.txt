@@ -1,0 +1,73 @@
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\bin\Debug\Scientific_conference.exe.config
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\bin\Debug\Scientific_conference.exe
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\bin\Debug\Scientific_conference.pdb
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.csprojAssemblyReference.cache
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Form1.resources
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Properties.Resources.resources
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.csproj.GenerateResource.cache
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.csproj.CoreCompileInputs.cache
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.exe
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.pdb
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Org.resources
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Conference_data.resources
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Rapporteur_data.resources
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Project_data.resources
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Organizer.resources
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Conference.resources
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Rapporteur.resources
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Scientific_adviser.resources
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Project.resources
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Mass_media.resources
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Sponsor.resources
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Rapporteur_data2.resources
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Rapporteur2.resources
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Scientific_adviser2.resources
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.csproj.CopyComplete
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Raport2.resources
+D:\4 семестр\БД\КР\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Query1.resources
+d:\Scientific_conference\Scientific_conference\bin\Debug\Scientific_conference.exe.config
+d:\Scientific_conference\Scientific_conference\bin\Debug\Scientific_conference.exe
+d:\Scientific_conference\Scientific_conference\bin\Debug\Scientific_conference.pdb
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.csprojAssemblyReference.cache
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Conference.resources
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Form1.resources
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Conference_data.resources
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Mass_media.resources
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Organizer.resources
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Project.resources
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Query1.resources
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Raport2.resources
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Rapporteur.resources
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Rapporteur2.resources
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Rapporteur_data.resources
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Project_data.resources
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Org.resources
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Properties.Resources.resources
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Rapporteur_data2.resources
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Scientific_adviser.resources
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Scientific_adviser2.resources
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Sponsor.resources
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.csproj.GenerateResource.cache
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.csproj.CopyComplete
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.exe
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.pdb
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.csproj.CoreCompileInputs.cache
+d:\Scientific_conference\Scientific_conference\bin\Debug\Microsoft.ReportViewer.Common.dll
+d:\Scientific_conference\Scientific_conference\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.ForRap1.resources
+D:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Form2.resources
+D:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Form4.resources
+D:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.InsRap.resources
+D:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.NewRap_Conf.resources
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.AddProj.resources
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.PubDet.resources
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.NewPubDet.resources
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.delPubDet.resources
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.MoneyFounds.resources
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.AddFounds.resources
+d:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.DelSpons.resources
+D:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.SumSpons.resources
+D:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.FormForm.resources
+D:\Scientific_conference\Scientific_conference\obj\Debug\Scientific_conference.Otcheti.resources

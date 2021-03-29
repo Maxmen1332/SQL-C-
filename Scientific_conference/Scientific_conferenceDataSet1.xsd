@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Scientific_conferenceDataSet1" targetNamespace="http://tempuri.org/Scientific_conferenceDataSet1.xsd" xmlns:mstns="http://tempuri.org/Scientific_conferenceDataSet1.xsd" xmlns="http://tempuri.org/Scientific_conferenceDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Scientific_conferenceConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Scientific_conferenceConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Scientific_conference.Properties.Settings.GlobalReference.Default.Scientific_conferenceConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Scientific_conferenceConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Scientific_conferenceConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Scientific_conference.Properties.Settings.GlobalReference.Default.Scientific_conferenceConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Project_viewTableAdapter" GeneratorDataComponentClassName="Project_viewTableAdapter" Name="Project_view" UserDataComponentName="Project_viewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Scientific_conferenceConnectionString1 (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT        Project.Topic_name, Project.Scientific_sphere, Rapporteur.FIO_of_rapporteur, Rapporteur.Scientific_degree, Scientific_adviser.FIO_of_scientific_adviser
+FROM            Scientific_adviser INNER JOIN
+                         Rapporteur ON Scientific_adviser.ID_of_scientific_adviser = Rapporteur.ID_of_scientific_adviser INNER JOIN
+                         Project ON Rapporteur.ID_of_rapporteur = Project.ID_of_rapporteur</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Topic_name" DataSetColumn="Topic_name" />
+              <Mapping SourceColumn="Scientific_sphere" DataSetColumn="Scientific_sphere" />
+              <Mapping SourceColumn="FIO_of_rapporteur" DataSetColumn="FIO_of_rapporteur" />
+              <Mapping SourceColumn="Scientific_degree" DataSetColumn="Scientific_degree" />
+              <Mapping SourceColumn="FIO_of_scientific_adviser" DataSetColumn="FIO_of_scientific_adviser" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Sum_money_viewTableAdapter" GeneratorDataComponentClassName="Sum_money_viewTableAdapter" Name="Sum_money_view" UserDataComponentName="Sum_money_viewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Scientific_conferenceConnectionString (Settings)" DbObjectName="Scientific_conference.dbo.Sponsor" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        SUM(Sponsor.Monetary_funds) AS Summ, Sponsor.Name_of_sponsor
+FROM            Funding_details INNER JOIN
+                         Sponsor ON Funding_details.ID_of_sponsor = Sponsor.ID_of_sponsor
+GROUP BY Sponsor.Name_of_sponsor</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Summ" DataSetColumn="Summ" />
+              <Mapping SourceColumn="Name_of_sponsor" DataSetColumn="Name_of_sponsor" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Scientific_conferenceDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Scientific_conferenceDataSet1" msprop:Generator_UserDSName="Scientific_conferenceDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Project_view" msprop:Generator_TableClassName="Project_viewDataTable" msprop:Generator_TableVarName="tableProject_view" msprop:Generator_TablePropName="Project_view" msprop:Generator_RowDeletingName="Project_viewRowDeleting" msprop:Generator_RowChangingName="Project_viewRowChanging" msprop:Generator_RowEvHandlerName="Project_viewRowChangeEventHandler" msprop:Generator_RowDeletedName="Project_viewRowDeleted" msprop:Generator_UserTableName="Project_view" msprop:Generator_RowChangedName="Project_viewRowChanged" msprop:Generator_RowEvArgName="Project_viewRowChangeEvent" msprop:Generator_RowClassName="Project_viewRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Topic_name" msprop:Generator_ColumnVarNameInTable="columnTopic_name" msprop:Generator_ColumnPropNameInRow="Topic_name" msprop:Generator_ColumnPropNameInTable="Topic_nameColumn" msprop:Generator_UserColumnName="Topic_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Scientific_sphere" msprop:Generator_ColumnVarNameInTable="columnScientific_sphere" msprop:Generator_ColumnPropNameInRow="Scientific_sphere" msprop:Generator_ColumnPropNameInTable="Scientific_sphereColumn" msprop:Generator_UserColumnName="Scientific_sphere" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FIO_of_rapporteur" msprop:Generator_ColumnVarNameInTable="columnFIO_of_rapporteur" msprop:Generator_ColumnPropNameInRow="FIO_of_rapporteur" msprop:Generator_ColumnPropNameInTable="FIO_of_rapporteurColumn" msprop:Generator_UserColumnName="FIO_of_rapporteur" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Scientific_degree" msprop:Generator_ColumnVarNameInTable="columnScientific_degree" msprop:Generator_ColumnPropNameInRow="Scientific_degree" msprop:Generator_ColumnPropNameInTable="Scientific_degreeColumn" msprop:Generator_UserColumnName="Scientific_degree" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FIO_of_scientific_adviser" msprop:Generator_ColumnVarNameInTable="columnFIO_of_scientific_adviser" msprop:Generator_ColumnPropNameInRow="FIO_of_scientific_adviser" msprop:Generator_ColumnPropNameInTable="FIO_of_scientific_adviserColumn" msprop:Generator_UserColumnName="FIO_of_scientific_adviser" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Sum_money_view" msprop:Generator_TableClassName="Sum_money_viewDataTable" msprop:Generator_TableVarName="tableSum_money_view" msprop:Generator_TablePropName="Sum_money_view" msprop:Generator_RowDeletingName="Sum_money_viewRowDeleting" msprop:Generator_RowChangingName="Sum_money_viewRowChanging" msprop:Generator_RowEvHandlerName="Sum_money_viewRowChangeEventHandler" msprop:Generator_RowDeletedName="Sum_money_viewRowDeleted" msprop:Generator_UserTableName="Sum_money_view" msprop:Generator_RowChangedName="Sum_money_viewRowChanged" msprop:Generator_RowEvArgName="Sum_money_viewRowChangeEvent" msprop:Generator_RowClassName="Sum_money_viewRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Summ" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSumm" msprop:Generator_ColumnPropNameInRow="Summ" msprop:Generator_ColumnPropNameInTable="SummColumn" msprop:Generator_UserColumnName="Summ" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Name_of_sponsor" msprop:Generator_ColumnVarNameInTable="columnName_of_sponsor" msprop:Generator_ColumnPropNameInRow="Name_of_sponsor" msprop:Generator_ColumnPropNameInTable="Name_of_sponsorColumn" msprop:Generator_UserColumnName="Name_of_sponsor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
